@@ -10,8 +10,8 @@ const setVal = (obj, val, ...keys) => keys.reduce((prev, key, index) => {
 
 const path = ['human', 'user', 'prop01', 'prop02', 'name']
 
-setVal(obj2, 'aha', ...path)
+setVal(obj, 'aha', ...path)
 
 // { human: { user: { prop01: { prop02: { name: 'aha' } } } } }
-console.log(obj2);
+console.log(obj);
 
